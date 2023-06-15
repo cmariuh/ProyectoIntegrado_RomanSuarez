@@ -1,0 +1,13 @@
+Cuenta de administrador:
+mail: admin@gmail.com
+contraseña: 101
+
+Usuarios:
+mail: maria@gmail.com
+contraseña: Maria100
+
+mail: manuel@gmail.com
+contraseña: Manuel100
+
+
+Se pueden eliminar estos usuarios desde el  admin, y crear más desde el apartado registro.

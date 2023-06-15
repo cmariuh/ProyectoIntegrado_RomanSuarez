@@ -1,0 +1,39 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 2.5vh;
+    overflow: hidden;
+}
+body{
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 4.5vh;
+}
+.container{
+    margin: 10vh;
+}
+input{
+    background-color: transparent;
+    border-radius: 15px;
+}
+.share{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 0.4s;
+}
+.share:hover{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+}
+#alerta{
+    margin: 10vh;
+}
+a{
+    text-decoration:none;
+    font-weight: bold;
+    color: lightseagreen;
+}

@@ -1,0 +1,32 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 3vh;
+}
+body{
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.container{
+    padding-left: 10vh;
+    padding-top: 2vh;
+}
+.nombre{
+    font-weight: bold;
+}
+.delete:hover{
+    color: darkred;
+}
+.list{
+    margin-top: 7vh;
+}

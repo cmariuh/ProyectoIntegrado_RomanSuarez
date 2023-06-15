@@ -1,0 +1,58 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #262626;
+    font-size: 2.5vh;
+}
+body{
+    list-style:none;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+div.container{
+    margin-left: 5vh;
+}
+h1{
+    font-size: 4vw;
+}
+input{
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 1vh;
+    width: 100%;
+}
+.actualizar{
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 0.4s;
+}
+.actualizar:hover{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+}
+.data{
+    font-size: 3.5vh;
+}
+
+#indice{
+    margin-top: 2vh;
+    width: 90vw;
+}
+.actualizar{
+    background-color:azure;
+}
+button{
+    border-radius: 15px;
+    height: 3.5vh;
+    width: 2.5vw;
+    border-color: transparent;
+    background-color: transparent;
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 2.5vh;
+}
+a:hover{
+    color: black;
+}

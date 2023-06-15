@@ -1,0 +1,72 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #262626;
+    overflow-x: hidden;
+}
+body{
+    list-style:none;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card{
+    margin: 1vh;
+    max-height:40vh;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+    padding: 3vh;
+    background-color:azure;
+    opacity: 70%;
+}
+.card:hover{
+    opacity: 100%;
+}
+.container{
+    width: 90%;
+    font-size: 2.4vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+img{
+    margin-left: 2vh;
+}
+#salir{
+    background-color: transparent;
+    border: none;
+}
+#delete{
+    color: darkred;
+}
+h1{
+    font-size: 3.5vh;
+}
+@media (min-width: 768px) { 
+    *{
+        font-size: 3vh;
+    }
+    .container{
+        width: 90%;
+        margin-left: 5vh;
+    }
+    h1{
+        font-size: 6vh;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    *{
+        font-size: 3vh;
+    }
+    .container{
+        width: 50%;
+        margin-left: 5vh;
+    }
+    .card:hover{
+        transition-duration: 0.5s;
+        width: 105%;
+    }
+    h1{
+        font-size: 6.5vh;
+    }
+ }

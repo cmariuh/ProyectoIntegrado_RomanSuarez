@@ -1,0 +1,59 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #262626;
+}
+body{
+    margin-top: 2.5vh;
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    margin-left: 5vw;
+    font-size: 3.2vh;
+}
+a{
+    margin-top: 2vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: lightseagreen;
+}
+#borrar, input{
+    background-color: transparent;
+    border-radius: 15px;
+    transition-duration:  0.5s;
+    font-size: 2.5vh;
+}
+#borrar:hover{
+    color: red;
+}
+.boton{
+font-size: 2.5vh;
+}
+#guardar{
+    margin-top: 5vh;
+}
+.info{
+    color: darkblue;
+}
+.back{
+    margin-top: 2.4vw;
+}
+textarea{
+    background-color: transparent;
+    border-radius: 20px;
+    width: 97%;
+    height: 20vh;
+    resize: none;
+    font-size: 2.5vh;
+}
+
+@media (min-width: 768px) { 
+    textarea{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    textarea{
+        width: 55vh;
+    }
+ }

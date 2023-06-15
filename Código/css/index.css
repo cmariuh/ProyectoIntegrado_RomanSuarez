@@ -1,0 +1,85 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #262626;
+}
+body{
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 5vh;
+    font-weight: bold;
+}
+input{
+    background-color: transparent;
+    border-radius: 50px;
+    width: 90%;
+}
+.button{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 0.4s;
+    width: 90%;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+}
+.button:hover{
+    background-color: antiquewhite;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+}
+#iniciar{
+    margin-top: 2vh;
+}
+h3{
+    margin-top: 6vh;
+    font-weight: bold;
+}
+hr{
+    color: black;
+    height: 2px;
+    width: 50vw;
+    background-color: black;
+    border: black;
+}
+body{
+    margin-left: 2vh;
+    margin-top: 4vw;
+    font-size: 3vh;
+}
+hr{
+    width: 90%;
+}
+
+.infoUser{
+    margin-left: 1vh;
+    margin-top: 5vh;
+}
+
+@media (min-width: 768px) { 
+    body{
+        margin-left: 5vh;
+    }
+    .button{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    body{
+        margin-left: 10vh;
+    }
+    .button{
+        width: min-content;
+    }
+    .infoUser{
+        margin-left: 5vh;
+        margin-top: 5vh;
+    
+    }
+ }
+
+  

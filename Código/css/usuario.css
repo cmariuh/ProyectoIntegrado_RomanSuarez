@@ -1,0 +1,130 @@
+
+
+* {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #262626;
+}
+body{
+    list-style:none;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    margin-top: 2.5vh;
+    margin-left: 4vh;
+}
+button {
+    border-radius: 15px;
+    height: 3.5vh;
+    width: 2.5vw;
+    border-color: transparent;
+    background-color: transparent;
+}
+h1{
+    font-size: 4vh;
+    font-weight: bold;
+}
+label.list{
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+.inp{
+    background-color: transparent;
+    border-radius: 15px;
+}
+.compartir{
+    position: absolute;
+    margin-top: -3.5vh;
+}
+.share{
+    margin-left: 30vh;
+}
+.borrar{
+    margin-left: 18vh;
+    margin-top: -2.5vh;
+}
+#indice{
+    margin-bottom: 2vh;
+    font-size: 3vh;
+}
+.card{
+    margin: 1vh;
+    max-height:40vh;
+   box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+   padding: 2vh;
+}
+.camara{
+    width: 8vh;
+    height: 8vh;
+    opacity: 15%;
+}
+.mensajeLista{
+    margin-top: 6vh;
+    color: #BF2C34;
+    font-weight: bold;
+    font-size: 3.2vh
+}
+input{
+    background-color: transparent;
+    border-radius: 15px;
+    transition-duration:  0.5s;
+}
+.imgcard{
+    margin-top: 2vh;
+    object-fit: cover;
+    max-height: 30vh;
+}
+#cancelar{
+    margin-bottom: 5vh;
+}
+.añadir{
+    margin-top: 5vh;
+    height: 5vh;
+    width: 5vh;
+}
+.add_list{
+    margin-bottom: 10vh;
+}
+.add_item{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    opacity: 40%;
+    transition-duration: 0.4s;
+}
+.add_item:hover{
+    opacity: 100%;
+}
+.imgC{
+    max-height: 20vh;
+}
+
+@media (min-width: 768px) { 
+    *{
+        font-size: 2.5vh;
+    }
+    .imgcard{
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    *{
+        font-size: 2.5vh;
+    }
+    img{
+        width: 3vh;
+        height: 3vh;
+    }
+    .añadir{
+        width: 7vh;
+        height: 7vh;
+    }
+    .imgcard{
+        object-fit: cover;
+        width: auto;
+        height: 20vh;
+    }
+ }
